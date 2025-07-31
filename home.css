@@ -16,7 +16,7 @@
 }
 
 
-@media(max-width:450px){
+@media(max-width:1080px){
     .home{
         width: 1080px;
     height:2400px;
