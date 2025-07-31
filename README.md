@@ -1,2 +1,2 @@
 # TOUR-WEBPAGE
-A website about tour.
+A website about  own tour.

@@ -1,0 +1,140 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.main_container{
+    background-color: rgb(25, 86, 137);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: space-evenly;
+}
+.IMG_ONE{
+    text-align: center;
+    padding-top: 100px;
+    width: 1080PX;
+    height: 1400px;
+    background-image: url(Road.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+     display: flex;
+    flex-direction: column;
+    align-items: center
+ 
+}
+@media(max-width:450px){
+    .IMG_ONE{
+       width:360px;
+       height:800px;
+    }
+}
+.headline{
+     display: flex;
+    flex-direction:column;
+    align-items: center; 
+   
+}
+
+
+/* .IMG_TWO{
+    margin-top: 10px;
+width: 1080PX;
+    height: 500px;
+    background-image: url(kolkata.avif);
+    background-size: cover;
+    
+    
+}
+.img_three{
+     margin-top: 10px;
+    width: 1080PX;
+    height: 500px;
+    background-image: url(temples.jpg);
+    
+}
+.img_four{
+     margin-top: 10px;
+     width: 1080PX;
+    height: 500px;
+    background-image: url(beach.jpg);
+} */
+h1{
+    color: rgb(0, 0, 0);
+    font-size: 50px;
+
+}
+
+h2{
+    text-align: center;
+    color: rgb(6, 192, 244);
+    font-size: 50px;
+
+   
+}
+.my_destiny{
+    color: rgb(255, 9, 9);
+    font-size: 70px;
+}
+@media(max-width:450px){
+    .my_destiny{
+        color: aliceblue;
+        font-size: 35px;
+    }
+}
+.collect{
+    color:rgb(6, 192, 244);
+    font-size: 60px;
+}
+@media(max-width:450px){
+   .collect{ 
+    color:rgb(6,192,244);
+    font-size:35px;
+}}
+.things{
+    color: rgb(255, 255, 255);
+   
+   
+     
+}
+.moment{
+    color: rgb(255, 87, 4);
+    
+}
+@media(max-width:450px){
+    .moment{
+        color: rgb(255, 87, 4);
+        font-size: 40px;
+    }
+}
+.not{
+    color:rgb(195, 13, 125)
+}
+
+.buttons{
+    height: 200px;
+    padding-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content:space-evenly ;
+
+}
+@media(max-width:450px){
+    .buttons{
+        padding-top: 100px;
+    display: flex;
+    /* justify-content: center; */
+    flex-direction: column;
+    align-items: center;
+     align-content:space-evenly ;
+    }
+
+}
+.firstB{
+    width: 100px;
+    height:30px;
+    margin-left: 50px;
+}
+
+

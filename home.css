@@ -1,0 +1,67 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.home{
+    width: 1080px;
+    height:800px;
+    background-image: url(beachevening.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    justify-content: center;
+}
+
+
+@media(max-width:450px){
+    .home{
+        width: 1080px;
+    height:800px;
+    background-image: url(beachevening.jpg);
+    background-size: cover;
+    display: flex;
+   flex-direction: column;
+   /* justify-content: center; */
+    align-items: center;
+    justify-content: center;
+    }
+}
+
+.main_container{
+    background-color: rgb(37, 128, 231);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: space-evenly;
+}
+@media(max-width:450px){
+.main_container{background-color: rgb(37, 128, 231);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: space-evenly;}
+
+}
+.facilities{
+    color: aliceblue;
+    font-size: 60px;
+}
+@media(max-width:450px){
+   .facilities {
+    font-size:40px;
+}
+}
+.our_lists{
+    height:400px;
+    width:400px;
+}
+
+.list{
+    height:30px;
+    width:100px;
+    color:yellow;
+    background-color: skyblue;
+}
