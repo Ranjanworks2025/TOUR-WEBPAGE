@@ -5,7 +5,7 @@
 }
 .home{
     width: 1080px;
-    height:800px;
+    height:1000px;
     background-image: url(beachevening.jpg);
     background-size: cover;
     display: flex;
